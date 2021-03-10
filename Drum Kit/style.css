@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    background-color: #00204a;
+    background-image: url("images/Drummer!.gif");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+h1{
+    font-size: 6em;
+    margin-top: 10px;
+    font-family: Lobster, cursive;
+    color: #ff4646;
+    text-shadow: 4px 4px white;
+}
+
+h4{
+    font-family: Lobster, cursive;
+    color: red;
+    text-shadow: 1px 1px #fbaccc;
+}
+
+.set{
+    margin: 10% auto;
+}
+
+.drum{
+    outline: none;
+    border: 10px solid #404B69;
+    width: 166px;
+    height: 166px;
+    font-size: 100px;
+    text-shadow: 2px 2px #fbaccc;
+    border-radius: 35px;
+    color: #bd2000;
+    margin: 10px;
+    font-family: Lobster, cursive;
+    background-color: #f4f9f9;
+}
+
+.w{
+    background-image: url("images/drum-1.png");
+    background-size: 150px;
+    position: relative;
+    top: 30px;
+}
+.a{
+    background-image: url("images/kickdrum.png");
+    background-size: 150px;
+    position: relative;
+    bottom: 30px;
+}
+.s{
+    background-image: url("images/tom-4.png");
+    background-size: 150px;
+    position: relative;
+    top: 30px;
+}
+.d{
+    background-image: url("images/crash.png");
+    background-size: 170px;
+    position: relative;
+    bottom: 30px;
+}
+.j{
+    background-image: url("images/drum-3.png");
+    background-size: 150px;
+    position: relative;
+    top: 30px;
+}
+.k{
+    background-image: url("images/snare-alt.png");
+    background-size: 155px;
+    position: relative;
+    bottom: 30px;
+}
+.l{
+    background-image: url("images/drum-2.png");
+    background-size: 150px;
+    position: relative;
+    top: 30px;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.love{
+    color: red;
+}
